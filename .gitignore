@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Testing / caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data & artifacts (do not commit downloaded benchmarks)
+data/
+*.csv
+*.parquet
+*.pt
+*.ckpt
+results*.json
+!configs/*.yaml
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.ipynb_checkpoints
