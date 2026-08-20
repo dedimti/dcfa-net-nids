@@ -1,0 +1,14 @@
+# LeakGuard audit configuration — UNSW-NB15
+# Reference probe: 97.33 ± 0.20% accuracy (F1 = 0.9789).
+dataset: unsw-nb15
+seeds: 3
+preprocessing:
+  deduplicate: true
+  drop_label_determining: true
+  encode_identifiers: false
+training:
+  epochs: 30
+  batch_size: 512
+  lr: 0.001
+  variant: full
+  checkpoint: best

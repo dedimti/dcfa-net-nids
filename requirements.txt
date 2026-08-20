@@ -1,0 +1,7 @@
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.1
+torch>=1.13
+pyyaml>=6.0
+# optional, for downloading real benchmarks from Hugging Face mirrors:
+# datasets>=2.10

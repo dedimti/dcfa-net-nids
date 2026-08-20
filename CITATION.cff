@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "LeakGuard: reference implementation (DCFA-Net audit probe)"
+version: 1.0.0
+date-released: 2026-08-20
+license: MIT
+repository-code: "https://github.com/dedimti/dcfa-net-nids"
+authors:
+  - family-names: Irawan
+    given-names: Dedi
+    orcid: "https://orcid.org/0009-0007-4973-926X"
+    affiliation: "Muhammadiyah University of Metro"
+  - family-names: Sudarmaji
+    given-names: Sudarmaji
+    orcid: "https://orcid.org/0009-0005-5549-4886"
+    affiliation: "Muhammadiyah University of Metro"
+  - family-names: Samsudin
+    given-names: Imam
+    orcid: "https://orcid.org/0009-0006-2482-4209"
+    affiliation: "Muhammadiyah University of Metro"
+preferred-citation:
+  type: article
+  title: "LeakGuard: An Intelligent Audit System Attributing Reported NIDS Accuracy to Evaluation Choices Rather Than Detection Skill"
+  journal: "Expert Systems With Applications"
+  year: 2026
+  authors:
+    - family-names: Irawan
+      given-names: Dedi
+      orcid: "https://orcid.org/0009-0007-4973-926X"
+    - family-names: Sudarmaji
+      given-names: Sudarmaji
+      orcid: "https://orcid.org/0009-0005-5549-4886"
+    - family-names: Samsudin
+      given-names: Imam
+      orcid: "https://orcid.org/0009-0006-2482-4209"

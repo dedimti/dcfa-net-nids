@@ -1,0 +1,14 @@
+# LeakGuard audit configuration — CIC-IDS2017
+# Reference probe: 97.40 ± 0.21% accuracy (F1 = 0.9277).
+dataset: cic-ids2017
+seeds: 3
+preprocessing:
+  deduplicate: true            # removes 12.9% of records
+  drop_label_determining: true
+  encode_identifiers: false
+training:
+  epochs: 30
+  batch_size: 512
+  lr: 0.001
+  variant: full
+  checkpoint: best

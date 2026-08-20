@@ -1,0 +1,14 @@
+# LeakGuard audit configuration — TON_IoT
+# Reproduces the leakage-aware (IP-dropped) reference: 99.17 ± 0.09% accuracy.
+dataset: ton-iot
+seeds: 3
+preprocessing:
+  deduplicate: true            # removes 54.9% of records (231,612 of 422,086)
+  drop_label_determining: true # drops the `type` field (label-determining)
+  encode_identifiers: false    # drop src_ip/dst_ip (IP-leakage guard)
+training:
+  epochs: 30
+  batch_size: 512
+  lr: 0.001
+  variant: full
+  checkpoint: best
